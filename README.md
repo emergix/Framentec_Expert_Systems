@@ -1,17 +1,91 @@
 # Framentec_Expert_Systems
-Expert systems  1983-1984
+
 ---
-title: "Les Systèmes Experts (1984-1985)"
+title: "Les Systèmes Experts (1983-1987)"
 author: "Olivier Croissant"
-date: "2025"
----
 
 # 💡 Contexte Historique
 
 > **Milieu des années 80** : l’âge d’or de l’IA symbolique, avant la domination du *machine learning* moderne.
 
+L’âge d’or des systèmes experts débute au tournant des années 1970-1980, dans le sillage des travaux pionniers de l’université de Stanford. Parmi les projets emblématiques, EMYCIN (Essential MYCIN) occupe une place centrale : dérivé du système médical MYCIN, il fournit un moteur d’inférence générique, indépendant du domaine, permettant de réutiliser la logique du diagnostic dans d’autres secteurs que l’infectiologie. Cette approche marque la naissance des environnements de développement de systèmes experts “vides” mais prêts à être dotés de connaissances spécifiques. Dans la même veine, KS-300, développé pour la configuration d’équipements électriques, illustre la capacité des systèmes experts à résoudre des problèmes industriels complexes en exploitant des bases de règles extensibles. Ces succès, conjugués à l’émergence de langages comme LISP et Prolog et à l’enthousiasme suscité par l’intelligence artificielle symbolique, alimentent dans les années 1980 un optimisme technologique sans précédent : celui d’ordinateurs capables non seulement de calculer, mais de raisonner.
+
 **Technologies phares**  
-- Langages : `LISP`, `PROLOG`  
+- Langages : `LISP`, `PROLOG`
+  
+Créé en 1958 par John McCarthy au MIT, LISP (LISt Processing language) est l’un des plus anciens langages de programmation encore utilisés. Conçu initialement pour la recherche en intelligence artificielle, il se distingue par :
+
+    Structure de données centrale : la liste, à la fois donnée et programme.
+
+    Syntaxe minimale : tout est une expression (S-expression) composée de parenthèses imbriquées.
+
+    Homoiconicité : le code et les données partagent la même structure, facilitant la manipulation et la génération de programmes par les programmes eux-mêmes.
+
+    Évaluation dynamique et garbage collector intégrés, très en avance sur leur temps.
+
+    Extensibilité : il est facile de définir de nouvelles fonctions, macros et mini-langages internes.
+
+Dans les années 1970-1980, LISP devient le langage de référence pour les systèmes experts et les applications IA, au point d’inspirer des machines LISP dédiées. Aujourd’hui encore, ses descendants (Common Lisp, Scheme, Clojure) conservent cette philosophie de flexibilité et de manipulation symbolique puissante.
+
+---
+Créé au début des années 1970 par Alain Colmerauer et Philippe Roussel à Marseille, Prolog (PROgramming in LOGic) est un langage de programmation fondé sur la logique du premier ordre.
+Il se distingue par son paradigme déclaratif : le programmeur décrit ce qui est vrai dans un domaine, et laisse le moteur d’inférence déterminer comment répondre aux questions.
+
+Caractéristiques clés :
+
+    Base de faits et de règles : le savoir est exprimé sous forme de clauses logiques (fait. ou but :- conditions.).
+
+    Moteur d’inférence intégré : recherche arrière (backward chaining) et unification de variables.
+
+    Non-déterminisme : exploration automatique de plusieurs solutions possibles.
+
+    Manipulation naturelle de structures symboliques (listes, arbres).
+
+    Applications typiques : systèmes experts, traitement du langage naturel, planification, raisonnement symbolique.
+
+Dans les années 1980, Prolog devient un pilier des projets d’IA symbolique — en particulier le projet japonais d’ordinateur de cinquième génération, qui en fait son langage central pour manipuler la connaissance à grande échelle. Aujourd’hui encore, Prolog reste utilisé dans la recherche en IA, les solveurs logiques et certains moteurs de règles industriels.
+
+| Aspect                | **LISP**                                          | **Prolog**                                       |
+|-----------------------|---------------------------------------------------|--------------------------------------------------|
+| **Date de création**  | 1958 – John McCarthy (MIT)                        | 1972 – Alain Colmerauer & Philippe Roussel (Marseille) |
+| **Paradigme**         | Fonctionnel, symbolique                           | Déclaratif, logique du premier ordre             |
+| **Unité de base**     | Liste (*S-expression*)                            | Clause logique (fait ou règle)                   |
+| **Syntaxe**           | Uniforme et parenthésée, manipulation de listes   | Règles lisibles proches du langage naturel       |
+| **Mécanisme central** | Évaluation d’expressions et application de fonctions | Unification et moteur d’inférence (*backward chaining*) |
+| **Points forts**      | Manipulation flexible de structures complexes, macros puissantes | Représentation naturelle de connaissances, recherche automatique de solutions |
+| **Applications typiques** | Systèmes experts, IA générale, manipulation symbolique, IA embarquée | Systèmes experts, traitement du langage naturel, planification |
+| **Influence historique** | Langage emblématique des *Lisp machines* et de la recherche IA | Langage central du projet japonais FGCS et de nombreux moteurs de règles |
+
+
+```mermaid
+flowchart TB
+    subgraph Utilisateur
+        U[Interface utilisateur]
+    end
+
+    subgraph Système_Expert
+        direction TB
+        UI[Interface de dialogue] --> Moteur[Moteur d'inférence]
+        Base[Base de connaissances] --> Moteur
+        Moteur --> Résultats[Explications & Conclusions]
+    end
+
+    U --> UI
+    Résultats --> U
+
+    subgraph Langages
+        LISP[LISP : Manipulation symbolique, création d'outils IA]
+        PROLOG[Prolog : Raisonnement logique, unification, règles]
+    end
+
+    Langages --> Moteur
+    Langages --> Base
+```
+
+
+
+
+
 - Moteurs d’inférence & bases de connaissances
 
 **Course géostratégique**

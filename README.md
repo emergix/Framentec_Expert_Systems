@@ -150,19 +150,16 @@ flowchart TB
     Langages --> Base
 ```
 
-
-
-
-
 - Moteurs d’inférence & bases de connaissances
 
 **Course géostratégique**
 - 🇯🇵 **Cinquième Génération** – IA symbolique massive
-   **["Cinquieme_Generation"](./Cinquieme_Generation.md)
+   ** ["Cinquieme_Generation"](./Cinquieme_Generation.md)
 - 🇺🇸 **DARPA** – 150 M$/an, volet militaire  
 - 🇪🇺 **ESPRIT** (1,5 Md ECU) & **ALVEY** (300 M$)
+  ** ["Projets_Esprit"](./Projet_Esprit.md)
 -  🚀**Presentation Framatome du 15 Juin 1985**
-  **["Presentation_Framatome_1985"](./Presentation_Framatome_1985.md)
+  ** ["Presentation_Framatome_1985"](./Presentation_Framatome_1985.md)
 
 ---
 

@@ -249,7 +249,7 @@ Particulièrement adapté aux **problèmes de sélection structurée** :
 - Diagnostic médical
 - Recommandation d'outils
 
- **["M1_UserGuide"](./M1_UserGuide.pdf)**  
+ **["M1_UserGuide"](./Docs/M1_UserGuide.pdf)**  
 
 ---
 
@@ -277,7 +277,7 @@ Base de connaissances structurée en trois types distincts :
 - Création de systèmes "consultation uniquement" (protection des connaissances)
 - Applications typiques : Identification de défaillances machines, diagnostic médical
 
-   **["S1_UserGuide"](./S1_UserGuide.pdf)**  
+   **["S1_UserGuide"](./Docs/S1_UserGuide.pdf)**  
 
 ---
 

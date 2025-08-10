@@ -58,7 +58,7 @@ Dans les années 1980, Prolog devient un pilier des projets d’IA symbolique �
 
 
 ### 🧠 Base de connaissances et moteur d’inférence logique
-##1. Base de connaissances (BC)
+## 1. Base de connaissances (BC)
 
 La base de connaissances est le cœur informationnel d’un système expert.
 Elle contient tout ce que le système sait sur un domaine donné, représenté de manière explicite et exploitable par un programme.
@@ -81,7 +81,7 @@ Elle contient tout ce que le système sait sur un domaine donné, représenté d
 
     Tableaux, graphes ou réseaux sémantiques
 
-##2. Moteur d’inférence
+## 2. Moteur d’inférence
 
 Le moteur d’inférence est le composant “raisonneur” du système.
 Il applique des règles logiques à la base de connaissances pour déduire de nouvelles informations ou prendre des décisions.
@@ -104,7 +104,7 @@ Fonctions principales :
 
         Choisir quelle règle appliquer lorsqu’il y en a plusieurs possibles.
 
-##3. Interaction BC ↔ Moteur d’inférence
+## 3. Interaction BC ↔ Moteur d’inférence
 
 On peut résumer leur rôle ainsi :
 

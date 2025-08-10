@@ -36,6 +36,26 @@ Lancé officiellement en **1982** par le **MITI** (*Ministry of International Tr
 ## 3. 📅 Chronologie
 
 ```mermaid
+%%{init: {"themeVariables": {
+  "timelineTitleColor": "#FF4500",
+  "timelineTextColor": "#B22222",
+  "timelineSectionBgColor": "#FFE4B5",
+  "timelineSectionBorderColor": "#FF6347",
+  "primaryColor": "#FF4500",
+  "primaryTextColor": "#FFFFFF"
+}}}%%
+timeline
+    title FGCS - Évolution du projet
+    1979 : Phase préparatoire, recrutement d’experts
+    1982 : Lancement officiel par le MITI et ICOT
+    1982-1985 : Prototypes séquentiels (*Sequential Inference Machines*)
+    1986-1990 : Machines logiques parallèles (*Parallel Inference Machines*)
+    1990 : Premiers signes de limitations techniques
+    1992 : Clôture officielle du projet
+```
+
+
+```mermaid
 timeline
     title FGCS - Évolution du projet
     1979 : Phase préparatoire, recrutement d’experts

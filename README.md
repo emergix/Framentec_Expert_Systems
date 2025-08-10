@@ -158,9 +158,11 @@ flowchart TB
 
 **Course géostratégique**
 - 🇯🇵 **Cinquième Génération** – IA symbolique massive
-   **["Cinquieme_Generation"](./Cinquieme_Generation.md)**  
+   **["Cinquieme_Generation"](./Cinquieme_Generation.md)
 - 🇺🇸 **DARPA** – 150 M$/an, volet militaire  
 - 🇪🇺 **ESPRIT** (1,5 Md ECU) & **ALVEY** (300 M$)
+-  🚀**Presentation Framatome du 15 Juin 1985**
+- **["presentation_Framatome_1985"](./presentation_Framatome_1986.pdf)
 
 ---
 

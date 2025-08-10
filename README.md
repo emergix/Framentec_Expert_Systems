@@ -16,7 +16,7 @@ date: "2025"
 
 **Course géostratégique**
 - 🇯🇵 **Cinquième Génération** – IA symbolique massive
-   **["M1_UserGuide"](./M1_UserGuide.pdf)**  
+   **["Cinquieme_Generation"](./Cinquieme_Generation.md)**  
 - 🇺🇸 **DARPA** – 150 M$/an, volet militaire  
 - 🇪🇺 **ESPRIT** (1,5 Md ECU) & **ALVEY** (300 M$)
 

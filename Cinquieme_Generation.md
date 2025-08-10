@@ -60,18 +60,6 @@ timeline
 ```
 
 
-```mermaid
-timeline
-    title FGCS - Évolution du projet
-    1979 : Phase préparatoire, recrutement d’experts
-    1982 : Lancement officiel par le MITI et ICOT
-    1982-1985 : Prototypes séquentiels (*Sequential Inference Machines*)
-    1986-1990 : Machines logiques parallèles (*Parallel Inference Machines*)
-    1990 : Premiers signes de limitations techniques
-    1992 : Clôture officielle du projet
-```
-
-
 
 # 🇯🇵 FGCS : Rêve, Limites et Héritage
 

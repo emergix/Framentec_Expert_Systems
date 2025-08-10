@@ -11,7 +11,8 @@ Dans ce cadre, je devellope quelques reflections qui sont contenue dans les papi
    **["Esprit_P387"](./Docs/Esprit_P387.pdf)**  
  
 
-  
+  Disponible dans :
+ESPRIT '87: Achievements and impact : proceedings of the 4th Annual ESPRIT Conference, Brussels, Sep 28-29 1987, editeur: SElsevier Science Pub , ou bien North Holland
 
 ## 🎯 Objectifs
 - Stimuler la **coopération transnationale** entre industriels, laboratoires de recherche et universités.

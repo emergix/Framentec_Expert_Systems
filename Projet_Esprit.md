@@ -4,7 +4,7 @@ Au milieu des années 1980, l’Europe lance un programme stratégique pour riva
 
 Dans ce cadre, je devellope quelques reflections qui sont contenue dans les papiers suivants:
 
- **["M1_UserGuide"](./Docs/Kritic_Project.pdf)**  
+ **["Kritic Project"](./Docs/Kritic_Project.pdf)**  
  
   **["M1_UserGuide"](./M1_UserGuide.pdf)**  
   

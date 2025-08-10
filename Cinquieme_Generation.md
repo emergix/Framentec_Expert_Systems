@@ -36,14 +36,19 @@ Lancé officiellement en **1982** par le **MITI** (*Ministry of International Tr
 ## 3. 📅 Chronologie
 
 ```mermaid
-%%{init: {"themeVariables": {
-  "timelineTitleColor": "#FF4500",
-  "timelineTextColor": "#B22222",
-  "timelineSectionBgColor": "#FFE4B5",
-  "timelineSectionBorderColor": "#FF6347",
-  "primaryColor": "#FF4500",
-  "primaryTextColor": "#FFFFFF"
-}}}%%
+%%{init: {
+  "theme": "base",
+  "timeline": { "disableMulticolor": false },
+  "themeVariables": {
+    "cScale0": "#FFF1E6", "cScaleLabel0": "#B22222",
+    "cScale1": "#FFE5D1", "cScaleLabel1": "#8B0000",
+    "cScale2": "#FFD6CC", "cScaleLabel2": "#7A0A0A",
+    "cScale3": "#FFC4C4", "cScaleLabel3": "#660000",
+    "titleColor": "#FF4500",
+    "textColor": "#8B0000",
+    "lineColor": "#FF6347"
+  }
+}}%%
 timeline
     title FGCS - Évolution du projet
     1979 : Phase préparatoire, recrutement d’experts

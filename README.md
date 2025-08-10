@@ -82,7 +82,7 @@ timeline
 
 # Outils de Génie de la Connaissance Framentec : M.1 et S.1
 
-Le texte fourni présente deux produits de Framentec, M.1 et S.1, qui sont des outils de génie de la connaissance utilisés pour créer des systèmes experts.
+Cet aperçu compare deux outils de génie de la connaissance de Framentec, M.1 et S.1, en soulignant leurs points communs et leurs différences.
 
 ---
 

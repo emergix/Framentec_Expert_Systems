@@ -15,7 +15,8 @@ date: "2025"
 - Moteurs d’inférence & bases de connaissances
 
 **Course géostratégique**
-- 🇯🇵 **Cinquième Génération** – IA symbolique massive  
+- 🇯🇵 **Cinquième Génération** – IA symbolique massive
+   **["M1_UserGuide"](./M1_UserGuide.pdf)**  
 - 🇺🇸 **DARPA** – 150 M$/an, volet militaire  
 - 🇪🇺 **ESPRIT** (1,5 Md ECU) & **ALVEY** (300 M$)
 

@@ -57,6 +57,74 @@ Dans les années 1980, Prolog devient un pilier des projets d’IA symbolique �
 | **Influence historique** | Langage emblématique des *Lisp machines* et de la recherche IA | Langage central du projet japonais FGCS et de nombreux moteurs de règles |
 
 
+### 🧠 Base de connaissances et moteur d’inférence logique
+##1. Base de connaissances (BC)
+
+La base de connaissances est le cœur informationnel d’un système expert.
+Elle contient tout ce que le système sait sur un domaine donné, représenté de manière explicite et exploitable par un programme.
+
+# Composants typiques :
+
+    Faits : énoncés simples considérés comme vrais dans le domaine.
+    Exemple : animal(chien). ou température(chaudière, 90).
+
+    Règles : relations logiques conditionnelles qui relient des faits.
+    Exemple : alerte(X) :- température(X, T), T > 80.
+
+    Métadonnées : certitude, priorités, liens vers des sources.
+
+# Représentations possibles :
+
+    Listes et structures symboliques (LISP)
+
+    Clauses logiques (Prolog)
+
+    Tableaux, graphes ou réseaux sémantiques
+
+##2. Moteur d’inférence
+
+Le moteur d’inférence est le composant “raisonneur” du système.
+Il applique des règles logiques à la base de connaissances pour déduire de nouvelles informations ou prendre des décisions.
+
+Fonctions principales :
+
+    Unification
+
+        Faire correspondre des modèles logiques avec les faits existants.
+
+    Chaînage avant (forward chaining)
+
+        Partir des faits connus pour en déduire de nouveaux, jusqu’à atteindre un objectif.
+
+    Chaînage arrière (backward chaining)
+
+        Partir d’un objectif ou d’une question, et remonter pour vérifier quelles conditions doivent être vraies.
+
+    Gestion des conflits
+
+        Choisir quelle règle appliquer lorsqu’il y en a plusieurs possibles.
+
+##3. Interaction BC ↔ Moteur d’inférence
+
+On peut résumer leur rôle ainsi :
+
+    BC = Mémoire (ce que le système sait)
+
+    Moteur = Raisonneur (comment il pense)
+
+Cycle typique :
+
+    L’utilisateur pose une question ou fournit de nouvelles données.
+
+    Le moteur recherche dans la BC les faits/règles pertinents.
+
+    Des règles sont appliquées pour générer de nouvelles conclusions.
+
+    Les conclusions sont ajoutées à la BC et/ou restituées à l’utilisateur.
+
+📌 Dans les années 1980, cette séparation claire entre connaissance (domaine) et raisonnement (mécanisme générique) a permis de créer des moteurs réutilisables (EMYCIN, OPS5, Prolog) capables d’alimenter de nombreux systèmes experts dans des domaines variés — médical, industriel, militaire, etc.
+
+
 ```mermaid
 flowchart TB
     subgraph Utilisateur

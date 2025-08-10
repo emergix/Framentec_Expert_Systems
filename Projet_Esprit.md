@@ -16,8 +16,9 @@ Ebrahim (Abe) H. Mamdani (1 June 1942[2] – 22 January 2010)
 I changea pour Imperial College ou il a été Emeritus Professor
 et recut par la suite: 
 "European Fuzzy Pioneer Award" from the European Society for Fuzzy Logic and Technology (EUSFLAT) in 1999, and the "Fuzzy Systems Pioneer Award" from the IEEE Computational Intelligence Society in 2003
-un interview de ce brillant homme :
-**["Esprit_P387"](./Docs/Esprit_P387.pdf)**
+
+Un interview de ce brillant homme :
+**["Abe_Mamdani_Interview"](./Docs/Abe_Mamdani_Interview.pdf)**
 
 
 Les details du projet doivent se trouver dans :

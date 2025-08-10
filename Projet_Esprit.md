@@ -8,7 +8,7 @@ Dans ce cadre, je devellope quelques reflections qui sont contenue dans les papi
 
   **["Elements_Planification"](./Docs/Elements_Planification.pdf)**  
 
-   **["Kritic Project"](./Docs/Kritic_Project.pdf)**  
+   **["Esprit_P387"](./Docs/Esprit_P387.pdf)**  
  
 
   

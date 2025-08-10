@@ -1,4 +1,5 @@
-## Contexte Historique
+## Presentation devant Jean-Claude Leny
+Slides:  **["Presentation_Framatome_1985"](./Docs/Presentation_Framatome_1985.pdf)**  ## Contexte Historique
 - **Ère pionnière de l'IA** (pré-dominance du *machine learning*)
 - **Technologies phares** : 
   - Systèmes à Base de Connaissances (SBC) et systèmes experts
